@@ -6,6 +6,7 @@ services:
     container_name: devguerrilla
     ports:
       - "8081:8080"
+      - "3000:3000"
     volumes:
       - ./:/home/coder/project
     environment:
