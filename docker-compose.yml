@@ -10,4 +10,4 @@ services:
     volumes:
       - ./:/home/coder/project
     environment:
-      - PASSWORD=199811  
+      - PASSWORD=tuPassword  
