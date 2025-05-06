@@ -3,7 +3,7 @@ version: '3'
 services:
   code:
     image: codercom/code-server:latest
-    container_name: devguerrilla
+    container_name: vsCodePortatil
     ports:
       - "8081:8080"
       - "3000:3000"
